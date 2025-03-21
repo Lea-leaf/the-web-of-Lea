@@ -338,7 +338,7 @@ animation-duration: 1s;
 {
     scale:1.2;
     position: relative;
-    background-image:url(冲田总司.jpg) ;
+    background-image:url(/the-web-of-Lea/冲田总司.jpg) ;
     transition: 0.8s;
     background-size: cover;
     overflow: hidden;
@@ -367,7 +367,7 @@ animation-duration: 1s;
 .boxstyle2:hover
 {
     scale:1.2;
-    background-image:url(两仪式1.png);
+    background-image:url(/the-web-of-Lea/两仪式1.png);
     background-size: cover;
 }
 
@@ -392,7 +392,7 @@ animation-duration: 1s;
 .boxstyle3:hover
 {
     scale:1.2;
-    background-image:url(败犬女主.jpg);
+    background-image:url(/the-web-of-Lea/败犬女主.jpg);
     background-size: cover;
 }
 
@@ -678,13 +678,13 @@ animation-duration: 1s;
 @keyframes backgroundanimation1
 {
     0%
-    {background-image:url(魔法使之夜0.png)}
+    {background-image:url(/the-web-of-Lea/魔法使之夜0.png)}
     25%
-    {background-image:url(魔法使之夜1.png)}
+    {background-image:url(/the-web-of-Lea/魔法使之夜1.png)}
     75%
-    {background-image:url(魔法使之夜2.png)}
+    {background-image:url(/the-web-of-Lea/魔法使之夜2.png)}
     100%
-    {background-image:url(魔法使之夜0.png)}
+    {background-image:url(/the-web-of-Lea/魔法使之夜0.png)}
 }
 
 @keyframes boxstyle-hover1
