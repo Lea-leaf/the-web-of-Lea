@@ -1,0 +1,699 @@
+
+/*全局设置*/
+*
+{
+  /* border: solid rgb(0, 0, 0);/*起辅助作用*/
+  scroll-behavior: smooth;
+}
+
+
+/*字体部分*/
+h1
+{
+    border-width: 0;
+} 
+
+.font1
+{
+   font-size: 20px;
+   font-style: normal;
+   color: #000000;
+   position: relative;
+   z-index: 1;
+}
+
+.font2
+{
+color: white;
+border-radius: 10px;
+justify-content: center;
+align-items:center;
+border-width: 0;
+}
+
+.font3
+{
+    color: #000000;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+}
+
+.pstyle
+{
+    display: flex;
+    border-radius: 5px;
+    flex:1;
+    margin-top:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    border-width: 0;
+}
+
+
+/*第一页*/
+.Thebeginning
+{  
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(125deg,rgba(1, 248, 248, 0.168),rgb(38, 143, 133),rgb(96, 89, 240),rgb(158, 96, 240),rgb(244, 83, 255),rgb(255, 173, 247),rgb(189, 90, 255));
+    background-size: 500%;
+    animation:headcoloranimation  15s linear infinite;
+    width: 100%;
+    height: 100vh;
+    border-width: 0;      
+    margin-bottom: 0;            
+} 
+
+.fontbox
+{
+   color:#000000;
+   font-size:35px;
+   line-height: 1rem;
+   display: flex;
+   flex: 1;
+   align-items:left;
+   flex-direction: column;
+   border-width: 0;
+}
+
+
+.container
+{ 
+   display: flex;
+   flex-direction: column;
+   width: 700px; 
+   height: 80vh;
+   letter-spacing: 3px; 
+   justify-content: center;
+   border-color: blueviolet;
+   margin-left: 55vh;
+   margin-top: 10vh;
+   border-width:0;
+}
+
+H2
+{ 
+    border-width: 0;
+   border-color: rgb(66, 133, 81);
+   margin: 0;   
+   flex:0.4;
+   letter-spacing: -3px;
+   display:flex;
+   width: 66vh;
+   overflow: hidden;
+   align-items: center;
+   padding-bottom: 15px;
+
+}
+   
+
+
+x
+{
+   
+   display: flex;
+   font-size: larger;
+   border-color: rgb(68, 0, 177);
+   flex:1;
+   position: relative;
+   top:29vh;
+   animation:0.3s swift-up ease-out forwards;
+   font-size: 250%;
+   border-width: 0;
+
+
+}
+
+.Span1
+{  
+   flex:1;
+   display:flex;
+   overflow: hidden;
+   border-color: rgb(255, 255, 255);
+   border-width: 0;
+
+
+}
+
+i
+{
+display: flex;
+position: relative;
+top: 20vh;
+animation:0.5s swift-up ease-out forwards;
+border-color: aquamarine;
+border-width: 0;
+
+
+
+}
+
+.i1
+{
+display: flex;
+position: relative;
+top: 20vh;
+animation:0.8s swift-up ease-out forwards;
+border-color: aquamarine;
+border-width: 0;
+
+
+
+}
+
+.i2
+{
+display: flex;
+position: relative;
+top: 20vh;
+animation:1.1s swift-up ease-out forwards;
+border-color: aquamarine;
+border-width: 0;
+
+
+
+}
+
+.i3
+{
+display: flex;
+position: relative;
+top: 20vh;
+animation:1.4s swift-up ease-out forwards;
+border-color: aquamarine;
+border-width: 0;
+
+}
+
+.i4
+{
+display: flex;
+position: relative;
+top: 20vh;
+animation:1.7s swift-up ease-out forwards;
+border-color: aquamarine;
+border-width: 0;
+
+}
+
+.button1
+{
+   display: flex;
+   flex: 1;
+   color: #000000;  
+   border-width: 0;
+}
+
+@keyframes swift-up
+{
+   to
+   {
+      top:13.5px;
+   }
+  
+};
+
+
+
+span:nth-of-type(1) i{animation-delay: 0.3s  ;}
+span:nth-of-type(2) i{animation-delay: 0.3s  ;}
+span:nth-of-type(3) i{animation-delay: 0.5s  ;}
+span:nth-of-type(4) i{animation-delay: 0.7s  ;}
+span:nth-of-type(5) i{animation-delay: 1s  ;}
+
+
+
+
+/***********************************/
+/***********************************/
+/***********************************/
+/***********************************/
+/***********************************/
+/***********************************/
+/***********************************/
+/***********************************/
+/***********************************/
+
+
+
+
+
+body
+{  
+    
+    display: flex;
+    flex-direction: column;
+    align-items: column;
+    justify-content: center;
+    border: solid rgb(191, 53, 53);
+    border-width: 0  ;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(196, 196, 196);
+}
+
+
+/*这是内部盒子部分*/
+/*这是内部盒子部分*/
+/*这是内部盒子部分*/
+/*这是内部盒子部分*/
+/*这是内部盒子部分*/
+/*这是内部盒子部分*/
+/*这是内部盒子部分*/
+/*这是内部盒子部分*/
+/*这是内部盒子部分*/
+
+.woodboxstyle
+{
+display: flex;;
+border-radius: 10px;
+flex:16;
+animation: 0.75s zoom1 ease-out;
+border-width: 0;
+}
+
+.woodboxstylein
+{
+    margin-left :25px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-width: 0;
+}
+
+.smallbox
+{
+    display: flex;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 0;
+    flex:1.5;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px ,10px,5px;
+    transition: 0.5s;
+    border-width: 0;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.129);
+    backdrop-filter: blur(2px);
+}
+
+.smallbox:hover
+{
+    scale: 1.2;      /*疑问，为什么必须用伪类实现，而不能直接用transition*/
+}
+
+.boxstyle1
+{
+display: flex;
+height: 28vh;
+margin: 3vh;
+margin-bottom: 1vh;
+flex:1;
+border-radius: 10px;
+justify-content: center;
+align-items: center;
+transition: 0.5s;
+backdrop-filter: blur(5px);
+background-color: rgba(223, 223, 223, 0.312);
+
+
+animation-name: zoom2;
+animation-timeline: scroll(nearest y);
+animation-duration: 1s;
+
+
+
+}
+
+.boxstyle1:hover
+{
+    scale:1.2;
+    position: relative;
+    background-image:url(冲田总司.jpg) ;
+    transition: 0.8s;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+.boxstyle2
+{
+    display: flex;
+    height: 28vh;
+    margin: 3vh;
+    margin-bottom: 1vh;
+    flex:1;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;backdrop-filter: blur(5px);
+    background-color: rgba(223, 223, 223, 0.312);
+    
+    animation-name: zoom2;
+    animation-duration: 1s;
+    animation-timeline: scroll(block nearest);
+    
+}
+
+.boxstyle2:hover
+{
+    scale:1.2;
+    background-image:url(两仪式1.png);
+    background-size: cover;
+}
+
+.boxstyle3
+{
+    display: flex;
+    height: 28vh;
+    margin: 3vh;
+    margin-top: 1vh;
+    flex:1;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    backdrop-filter: blur(5px);
+    background-color: rgba(223, 223, 223, 0.312);
+
+    animation-name: zoom2;
+    animation-duration: 1s;
+    animation-timeline: scroll(block nearest);
+}
+.boxstyle3:hover
+{
+    scale:1.2;
+    background-image:url(败犬女主.jpg);
+    background-size: cover;
+}
+
+.boxstyle4
+{
+    display: flex;
+    height: 28vh;
+    margin: 3vh;
+    margin-top: 1vh;
+    flex:1;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    backdrop-filter: blur(5px);
+    background-color: rgba(223, 223, 223, 0.312);
+    animation-name: zoom2;
+    animation-duration: 1s;
+    animation-timeline: scroll(block nearest);
+}
+.boxstyle4:hover
+{
+    scale:1.2
+}
+
+.Bigbox1
+{
+    display: flex;
+    align-items: flex-end;
+    border-radius: 10px;
+    border: solid rgb(0, 0, 255);
+    width: 100%;
+    height: 35vh;
+    border-width:0;
+    margin: 0;
+    margin-top: 10vh;
+}
+
+.Bigbox2
+{
+    display: flex;
+    align-items: flex-start;
+    border-radius: 10px;
+    border: solid rgb(0, 0, 255);
+    width: 100%;
+    height: 35vh;
+    border-width:0;
+    margin: 0;
+}
+
+
+
+/*这是外部盒子部分*/
+/*这是外部盒子部分*/
+/*这是外部盒子部分*/
+/*这是外部盒子部分*/
+/*这是外部盒子部分*/
+/*这是外部盒子部分*/
+/*这是外部盒子部分*/
+/*这是外部盒子部分*/
+/*这是外部盒子部分*/
+
+.headbox
+{
+    width: 100%;
+    display: flex;
+    height: 13vh;
+    flex-direction: row;
+    padding-left: 10px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(223, 223, 223, 0.312);
+    margin-top: 0;
+    border: solid red;
+    position: fixed;
+    top:0;
+    left: 0;
+    border-width: 0;
+    margin-bottom: 0;
+    z-index: 1;
+ 
+
+    animation:zoom3 ease-out;
+    animation-timeline:scroll(root y)
+
+}
+
+
+.mainbox
+{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   border: solid rgb(255, 0, 247);
+   width: 100%;
+   position: relative;
+   bottom: 0;
+   background-size: cover;
+   border-width: 0;
+   backdrop-filter: 3px;
+
+   animation: backgroundanimation1 36s ease-in-out infinite;
+
+}
+
+
+
+
+ .mainpartbox1
+{ 
+    display: flex;
+    height:5vh;
+    border-color: blueviolet;
+    border-radius: solid;
+    backdrop-filter: blur(5px);
+    background-color: rgba(223, 223, 223, 0.312);
+    border-width: 5;
+    border-radius: 10px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 76%;
+    align-items: center;
+    justify-content: center;
+    flex: 2.5;
+    font-size: 36px;
+    animation:zoom4 ease-out ;
+    animation-timeline: scroll(nearest y);
+
+}
+ .mainpartbox2
+{ 
+    margin-top: 3vh;
+    display: flex;    
+    flex-direction: row;
+    width: 80%;
+    height: 80vh;
+    margin-bottom: 15vh;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(223, 223, 223, 0.312);
+    border-width: 0;
+    flex:9;
+}
+
+.SBemptybox
+{
+    display: flex;
+    border-width:  0;
+    border-color: aqua;
+    margin-left: 5vh;
+    margin-top:25vh;
+    border-radius: 10px;
+    flex:3;
+    backdrop-filter: blur(5px);
+    background-color: rgba(223, 223, 223, 0.312);
+    height: 50vh;
+}
+
+.SBigbox2
+{
+    margin-top: 0vh;
+    margin-bottom: 50vh;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px; 
+    flex:10;
+    margin: 30px;
+    border: solid rgb(208, 255, 0);
+    border-width: 0;
+    
+
+}
+
+.SBigbox3
+{ 
+    margin-top: 35vh;
+    margin-bottom: 50vh;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 10px;
+    backdrop-filter: 1px;
+    border-width: 1;
+    display: flex;
+    flex:2.5;
+    flex-direction: column;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    background-color: rgba(130, 130, 130, 0.249);
+
+    animation: zoom3 ease-out;
+    animation-timeline: scroll(root y);
+
+}
+.Bigbox3-small1
+{
+    border-radius: 5px;
+    margin: 2px;
+    transition: 0.5s;
+    backdrop-filter: blur(5px);
+    background-color: rgba(223, 223, 223, 0.312);;
+    animation-name: zoom2;
+
+    animation-timeline: scroll(block nearest);
+}
+
+.Bigbox3-small1:hover
+{
+    scale: 1.2;
+    overflow: hidden;
+}
+
+/*动画*/
+@keyframes zoom1
+{
+    from
+    {
+      transform: scale(0);
+       opacity:0;
+    }
+    to
+    {
+      transform: scale(1);
+      opcity:70%;
+    }
+}
+
+@keyframes zoom2
+{
+    0%
+    {
+      transform: scale(0);
+       opacity:0;
+    }
+    75%
+    {
+      transform: scale(1);
+      opcity:70%;
+    }
+}
+
+
+@keyframes zoom3
+{
+    0%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+}
+
+@keyframes zoom4
+{
+    0%
+    {
+      transform: scale(0);
+       opacity:0;
+    }
+    30%
+    {
+      transform: scale(1);
+      opcity:100%;
+    }
+}
+
+
+@keyframes headcoloranimation
+{
+    0%
+    {background-position: 0% 50%;}
+   50%
+   {background-position: 100% 50%}
+   100%
+    {background-position:  0% 50%;}
+}  
+
+@keyframes backgroundanimation1
+{
+    0%
+    {background-image:url(魔法使之夜0.png)}
+    25%
+    {background-image:url(魔法使之夜1.png)}
+    75%
+    {background-image:url(魔法使之夜2.png)}
+    100%
+    {background-image:url(魔法使之夜0.png)}
+}
+
+@keyframes boxstyle-hover1
+{
+    0%
+    {top:50vh}
+    100%
+    {top:0}
+}
+
+/**/
+
