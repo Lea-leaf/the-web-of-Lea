@@ -551,6 +551,7 @@ animation-duration: 1s;
 .SBemptybox
 {
     display: flex;
+    flex-direction: column;
     border-width:  0;
     border-color: aqua;
     margin-left: 5vh;
