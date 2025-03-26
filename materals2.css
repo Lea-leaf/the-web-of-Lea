@@ -40,6 +40,16 @@ border-width: 0;
     margin-left: 30%;
 }
 
+.font4
+{
+    display: flex;
+    color: #000000;
+    text-decoration: none;
+    font-size: 32px;
+     padding-left: 2vh;
+     padding-top: 1.5vh;
+}
+
 .pstyle
 {
     display: flex;
@@ -552,6 +562,31 @@ animation-duration: 1s;
     height: 50vh;
 }
 
+.githubbox
+{
+flex: 1;
+margin: 3vh;
+padding: 2px;
+border-width: 0;
+align-items: center;
+justify-content: center;
+backdrop-filter: blur(5px);
+background-color: rgba(223, 223, 223, 0.312);;
+border-radius: 10px;
+}
+
+.message-board
+{
+flex:3.5;
+border-width: 0;
+align-items: center;
+justify-content: center;
+backdrop-filter: blur(5px);
+background-color: rgba(223, 223, 223, 0.312);;
+border-radius: 10px;
+margin: 2vh;
+}
+
 .SBigbox2
 {
     margin-top: 0vh;
@@ -678,13 +713,13 @@ animation-duration: 1s;
 @keyframes backgroundanimation1
 {
     0%
-    {background-image:url(/the-web-of-Lea/魔法使之夜0.png)}
+    {background-image:URL(/the-web-of-Lea/魔法使之夜0.png)}
     25%
-    {background-image:url(/the-web-of-Lea/魔法使之夜1.png)}
+    {background-image:URL(/the-web-of-Lea/魔法使之夜1.png)}
     75%
-    {background-image:url(/the-web-of-Lea/魔法使之夜2.png)}
+    {background-image:URL(/the-web-of-Lea/魔法使之夜2.png)}
     100%
-    {background-image:url(/the-web-of-Lea/魔法使之夜0.png)}
+    {background-image:URL(/the-web-of-Lea/魔法使之夜0.png)}
 }
 
 @keyframes boxstyle-hover1
